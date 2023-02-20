@@ -1,0 +1,89 @@
+.funeral-plans-container{
+    width: 100%;
+    background-color: rgb(245, 241, 227);
+    margin: 0px;
+    padding: 2%;
+}
+.funeral-plans-container-title{
+    color: #069d88;
+    text-align: center;
+    font:36px Ovo;
+    padding: 4% 3%;
+}
+.funeral-plans-container-para{
+    text-align: center;
+    font:19px Ovo;
+    padding: 4% 3%;
+}
+.funeral-plans-inner-container{
+    width: 90%;
+    margin: 5% ;
+    height: auto;
+    background-color: white;
+    // transition: .2s;
+}
+.funeral-plans-inner-container-image-container{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+   
+.funeral-plans-inner-container-image{
+    width:100%;
+    transition: transform .2s ease-in-out;
+    // z-index: 1;
+}
+
+.funeral-plans-inner-container-image-container:hover{
+    .funeral-plans-inner-container-image{
+        // width:100%;
+        transform:scale(1.2);
+ 
+    }
+}
+.funeral-plans-inner-container-title{
+    color: #212121;
+    // margin: 20px 0px;
+    margin-left: 4%;
+    margin-top: 2%;
+    font:25px Ovo;
+    text-align: left;
+    // padding: 0% 10% ;
+    line-height: 30px;
+}
+.funeral-plans-inner-bottom-container{
+   text-align: left;
+   padding: 1% 5%;
+
+}
+
+@media (min-width:"768px"){
+    .funeral-plans-container-title{
+      padding-top: 8%;
+    }
+    .funeral-plans-container-para{
+        padding-top: 1%;
+      }
+    .funeral-plans-main-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .funeral-plans-inner-container{
+        width: 45%;
+        margin: 2% ;
+    }
+}
+
+@media (min-width:"1024px"){
+    .funeral-plans-container-title{
+        padding-bottom: 2%;
+      }
+      .funeral-plans-container-para{
+        padding-bottom: 2%;
+        }
+    .funeral-plans-inner-container{
+        width: 29%;
+        margin: 2%;
+    }
+}

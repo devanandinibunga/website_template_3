@@ -1,0 +1,100 @@
+.funeral-obituaries-container{
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    padding: 2%;
+}
+.funeral-obituaries-container-title{
+    color: #069d88;
+    text-align: center;
+    font:36px Ovo;
+    padding: 4% 3%;
+}
+.funeral-obituaries-container-para{
+    text-align: center;
+    font:19px Ovo;
+    padding: 4% 3%;
+}
+.funeral-obituaries-inner-container{
+    width: 90%;
+    margin: 5% ;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+    // transition: .2s;
+}
+.funeral-obituaries-inner-container-image-container{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+   
+.funeral-obituaries-inner-container-image{
+    width:100%;
+    transition: transform .2s ease-in-out;
+    // z-index: 1;
+}
+
+.funeral-obituaries-inner-container-image-container:hover{
+    .funeral-obituaries-inner-container-image{
+        // width:100%;
+        transform:scale(1.2);
+ 
+    }
+}
+.funeral-obituaries-inner-container-title{
+    color: #212121;
+    // margin: 20px 0px;
+    // margin-left: 4%;
+    margin-top: 2%;
+    font:20px Ovo;
+    text-align: left;
+    // padding: 0% 10% ;
+    line-height: 30px;
+}
+.funeral-obituaries-inner-bottom-container{
+   text-align: left;
+   padding: 1% 5%;
+   width: 100%;
+}
+.funeral-obituaries-inner-container-span{
+    color: #069d88;
+    font-weight: 600;
+}
+.funeral-obituaries-inner-bottom-container-description{
+    font-size: 18px;
+}
+@media (min-width:"768px"){
+    .funeral-obituaries-container-title{
+      padding-top: 8%;
+    }
+    .funeral-obituaries-container-para{
+        padding-top: 1%;
+      }
+    .funeral-obituaries-main-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .funeral-obituaries-inner-container{
+        width: 45%;
+        margin: 2% ;
+    }
+}
+
+@media (min-width:"1024px"){
+    .funeral-obituaries-container-title{
+        padding-bottom: 2%;
+      }
+      .funeral-obituaries-container-para{
+        padding-bottom: 2%;
+        }
+    .funeral-obituaries-inner-container{
+        width: 45%;
+        margin: 2%;
+      flex-direction: row;
+    }
+}

@@ -1,0 +1,159 @@
+.funeral-news-container{
+    width: 100%;
+    // background-color: rgb(255,245,203);
+    margin: 0px;
+    padding: 2%;
+    background-color: #fcfcf9;
+    border-top: 1px solid #e9e8df;
+    border-bottom: 1px solid #e9e8df
+}
+.funeral-news-container-title{
+    text-align: center;
+    font:36px Ovo;
+    padding: 4% 3%;
+    color: #069d88;
+}
+.funeral-news-container-para{
+    text-align: center;
+    font:19px Ovo;
+    padding: 4% 3%;
+}
+.funeral-news-inner-container{
+    width: 90%;
+    margin: 5% 5% 8% 5% ;
+    height: auto;
+    // transition: .2s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.funeral-news-inner-container-image-container{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+   
+.funeral-news-inner-container-image{
+    width:100%;
+    transition: transform .2s ease-in-out;
+    // z-index: 1;
+}
+
+.funeral-news-inner-container-image-container:hover{
+    .funeral-news-inner-container-image{
+        // width:100%;
+        transform:scale(1.2);
+    }
+}
+.funeral-news-inner-container-title{
+    color: #212121;
+    // margin: 20px 0px;
+    margin-left: 4%;
+    margin-top: 2%;
+    font:23px Ovo;
+    line-height: 30px;
+}
+.funeral-news-inner-container-title:hover{
+    color: #069d88;
+}
+
+.funeral-news-inner-container-para{
+ font-size: 15px;
+ color: #212121;
+
+}
+.funeral-news-inner-bottom-container{
+   padding: 5% ;
+   margin-top: 4%;
+}
+.funeral-news-inner-container-button{
+    color: white;
+    width: 45%;
+    padding: 2% 3%;
+    border: 0;
+    background-color: #069d88;
+    margin-left: 4%;
+}
+.funeral-news-inner-middle-container{
+    background-color: #069d88;
+    width: 90%;
+    // text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top: 120px;
+    color: white;
+    padding: 2%;
+}
+.funeral-news-inner-middle-icons-container{
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width:"768px"){
+    .funeral-news-container{
+        padding-bottom: 2%;
+    }
+    .funeral-news-container-title{
+      padding-top: 8%;
+    }
+    .funeral-news-container-para{
+        padding-top: 1%;
+      }
+    .funeral-news-main-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .funeral-news-inner-container{
+        width: 45%;
+        margin:2%;
+        margin-bottom: 4%;
+    }
+    .funeral-news-inner-middle-container{
+        top: 155px;
+    }
+}
+
+@media (min-width:"1024px"){
+    .funeral-news-container-title{
+        padding-bottom: 2%;
+      }
+      .funeral-news-container-para{
+        padding-bottom: 2%;
+        }
+    .funeral-news-inner-container{
+        width: 29%;
+        margin: 2%;
+    }
+    .funeral-news-inner-bottom-container{
+        margin-top: 5%;
+    }
+    .funeral-news-inner-middle-container{
+        top: 175px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .funeral-news-inner-container-title{
+        font-size: 20px; 
+       }
+       .funeral-news-inner-container-para{
+        font-size: 15px; 
+       }   
+    // .funeral-news-inner-middle-icons-container{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-around;
+
+    // }
+}
+
+@media (min-width:"2560px"){
+    .funeral-news-inner-middle-container{
+        top: 180px;
+    }
+}

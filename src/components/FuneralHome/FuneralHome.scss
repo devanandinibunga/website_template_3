@@ -1,0 +1,109 @@
+.funeral-home-container{
+    background-color: rgb(245, 241, 227);
+    margin: 0px;
+}
+.funeral-home-container-title{
+    font-size: 35px;
+    color:#069d88 ;
+    padding: 12% 2%;
+}
+.funeral-home-inner-container{
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.funeral-home-inner-container-image{
+    width: 100%;
+    padding:6% 4% ;
+}
+.funeral-home-inner-middle-container{
+    width: 100%;
+    padding: 4%;
+}
+.funeral-home-inner-middle-container-title{
+    font-size: 24px;
+    text-align: left;
+    font-style: italic;
+    color: #02816F;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    padding: 1% 15px;
+    line-height: 30px;
+}
+.funeral-home-inner-middle-container-para{
+    font-size: 17px;
+    text-align: left;
+    color: #7e7878;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 3% 15px;
+    line-height: 30px;
+}
+.funeral-home-inner-right-container{
+    width: 100%;
+    margin: 8%;
+    text-align: left;
+    align-self: center;
+    justify-content: center;
+    background-color: #fcfcf9;
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border: 1px solid #eeece2
+}
+.funeral-home-inner-right-container-title{
+    color:#02816F;
+    font-size: 18px;
+    text-align: left;
+}
+.funeral-home-inner-right-container-para{
+    color:#7e7878;
+    font-size: 16px;
+    text-align: left;
+}
+@media (min-width:"768px"){
+    .funeral-home-container-title{
+        padding: 6%;
+    }
+    .funeral-home-inner-container{
+        width: 100%;
+        flex-wrap: wrap;
+    .funeral-home-inner-container-image{
+        width: 50%;
+    }
+    .funeral-home-inner-middle-container{
+        width: 48%;
+    }
+    .funeral-home-inner-right-container{
+        width: 44%;
+        margin: 0%;
+        margin-left:4%;
+        margin-bottom: 5%;
+    }
+}
+}
+
+@media (min-width:"1024px"){
+    .funeral-home-container-title{
+        padding: 5%;
+    }
+    .funeral-home-inner-container{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 0%;
+    .funeral-home-inner-container-image{
+        width: 33%;
+        padding:4% 2%;
+    }
+    .funeral-home-inner-middle-container{
+        width: 33%;
+        padding:4% 2%;
+    }
+    .funeral-home-inner-right-container{
+        width: 32%;
+        padding:3% 2%;
+        margin: 0%;
+    }
+}
+}

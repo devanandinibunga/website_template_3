@@ -1,0 +1,20 @@
+.funeral-header-container{
+    background-color: #574040;
+    padding: 1%;
+    height: auto;
+    width: 100%;
+}
+
+
+@media (min-width:"1050px"){
+    .navbar-collapse{
+        padding:0% 5% 0% 18%;
+        margin: 0%;
+        // margin-left: 5%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0%;
+        padding: 0%;
+        font-size: 15px;
+    }
+}

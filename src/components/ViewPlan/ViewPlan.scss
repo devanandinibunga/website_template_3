@@ -1,0 +1,59 @@
+.view-plan-container{
+    background-image: url('http://wporganic.com/funeral-service/wp-content/uploads/2016/04/slider.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 56.7px;
+    width: 100%;
+    margin: 0px;
+}
+.view-plan-inner-container{
+    padding:25% 3%; 
+    color: white;
+    line-height:30px;
+    // margin: 5% 0%;
+}
+.view-plan-inner-container-title{
+    font-size: 52px;
+}
+.view-plan-inner-container-para{
+    font-size: 20px;
+}
+.view-plan-container-btn{
+    border: 0;
+    background-color: #e9d74a;
+    color: #574040;
+    padding:2% 5%;
+}
+
+@media (min-width:"768px"){
+    .view-plan-inner-container{
+        padding: 10% 4%;
+    }
+    .view-plan-inner-container-title{
+        font-size: 52px;
+    }
+    .view-plan-inner-container-para{
+        font-size: 18px;
+    }
+    .view-plan-container-btn{
+        padding:1% 5%;
+    }
+}
+
+
+@media (min-width:"1024px"){
+    .view-plan-inner-container{
+        padding: 10% 5%;
+        line-height: 50px;
+    }
+    .view-plan-inner-container-title{
+        font-size: 52px;
+    }
+    .view-plan-inner-container-para{
+        font-size: 20px;
+    }
+    .view-plan-container-btn{
+        padding:0% 5%;
+    }
+}

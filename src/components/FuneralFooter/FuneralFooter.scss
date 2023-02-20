@@ -1,0 +1,142 @@
+.funeral-footer-container{
+    background-color: #342f2f;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 0%;
+}
+.funeral-footer-logo-container{
+    width: 100%;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+.funeral-footer-logo-container-img{
+    padding-top: 2%;
+}
+.funeral-footer-logo-container-para{
+    color: #7e7878;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+.funeral-footer-data-container{
+    width: 50%;
+    // margin-left: 2%;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+.funeral-footer-data-container-title{
+    color: white;
+    font-size: 23px;
+    text-align: left;
+}
+.funeral-footer-data-container-para{
+    color: #7e7878;
+    font-size: 15px;
+    // padding-left: 1%;
+    text-align: left;
+}
+
+.funeral-newsletter-container{
+    width: 100%;
+    background-size: cover;
+    background-color: #3f3b3b;
+    // margin: 0%;
+    padding:8% 3%;
+}
+.funeral-newsletter-image-container{
+    display: flex;
+    width: 100%;
+    // align-self: center;
+    // justify-content: center;
+    // text-align: center;
+}
+.funeral-newsletter-image{
+    width: 40%;
+}
+.funeral-newsletter-image-para{
+    font-size: 20px;
+    color: white;
+    width: 40%;
+    margin: auto;
+}
+.funeral-newsletter-container-input{
+    width: 70%;
+    border: 0;
+    padding: 2% 3%;
+    margin: auto;
+    background-color: #524d4d;
+}
+.funeral-newsletter-container-btn{
+    width: 70%;
+    border: 0;
+    background-color:#069d88 ;
+    color: white;
+    margin-top: 5%;
+    padding:  2% 3%;
+}
+
+@media (min-width:"768px"){
+    .funeral-footer-logo-container{
+        width: 60%;
+    }
+    .funeral-footer-data-container{
+        width: 30%;
+    }
+    .funeral-newsletter-image-container{
+    .funeral-newsletter-image{
+        width: 20%;
+    }
+    .funeral-newsletter-image-para{
+        width: 50%;
+        margin: 0%;
+        align-self : center;
+        font-size: 30px;
+    }
+    .funeral-newsletter-container-input{
+        width: 70%;
+        margin-right: 2%;
+    }
+}
+    
+    .funeral-newsletter-container-btn{
+        width: 20%;
+    }
+}
+
+
+@media (min-width:"1024px"){
+    .funeral-footer-logo-container{
+        width: 20%;
+    }
+    .funeral-footer-data-container{
+        width: 20%;
+    }
+    .funeral-newsletter-container{
+        display: flex;
+        padding: 2%;
+        margin: 1%;
+    }
+    .funeral-newsletter-image-container{
+        width: 40%;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+    .funeral-newsletter-container-input{
+        width: 40%;
+        margin-right: 2%;
+        // height: auto;
+        height: 70px;
+        margin-top: 44px;
+    }
+    .funeral-newsletter-container-btn{
+        width: 20%;
+    } 
+}
+
+@media (min-width:"1064px"){
+    .funeral-newsletter-container-input{
+        margin-top: 60px;
+    }
+}
